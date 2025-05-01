@@ -1,8 +1,7 @@
 
-
-
-
-
+document.getElementById('submit').addEventListener('click', function() {
+    window.location.href = feed.html;
+});
 
 const followbtn = document.querySelector("#follow");
 const messagebtn = document.querySelector("#message");
