@@ -1,3 +1,23 @@
+let password = 'password'
+let username = 'username'
+
+const pass = document.querySelector('#password')
+const user = document.querySelector('#username')
+const submitbtn = document.querySelector('#submit')
+
+submitbtn.addEventListener('click', (event) => {
+    event.preventDefault();
+
+
+    if (pass.value === password && user.value === username) {
+        window.location.href = './account.html';
+    } else {
+        alert('Wrong username or password')
+    }
+})
+
+
+
 
 document.getElementById('submit').addEventListener('click', function() {
     window.location.href = feed.html;
