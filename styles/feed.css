@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    
+}
+.top-nav,.bottom-nav{
+    background-color:rgb(171, 140, 140);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+.logo{
+    font-weight: bold;
+    font-size: 18px;
+}
+.feed-container{
+    padding: 20px;
+}
+.post{
+    background: #000;
+    margin-bottom: 20PX;
+    border-radius: 8PX;
+    overflow: hidden;
+}
+.post img {
+    width: 50%;
+    display: block;
+}
+.caption{
+    padding: 10px;
+    font-size: 14px;
+}
