@@ -231,6 +231,10 @@ header {
     width: stretch;
 }
 
+.img-margin {
+    margin: 0 4px;
+}
+
 footer {
     background-color: #6D37CB;
     height: 80px;
